@@ -18,6 +18,6 @@ jobs:
  cat-scripts:
    uses: TeddyBrod/workflow-script/.github/workflows/workflow_call.yml@main
    with:
-    duck_token: "blop"
+    duck_token: "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"
 
 
