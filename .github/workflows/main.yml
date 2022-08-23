@@ -23,7 +23,7 @@ jobs:
         uses:  TeddyBrod/Composite-action@main
         with:
           who-to-greet: "Fred"
-          duck_token: "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"
+          duck_token: ${{ secrets.DUCK_TOKEN }}
 
  cat-scripts:
    needs: get-action
