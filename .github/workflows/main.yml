@@ -17,6 +17,5 @@ on:
 jobs:
  cat-scripts:
    uses: TeddyBrod/workflow-script/.github/workflows/workflow_call.yml@main
-   with:
-    who-to-greet: "Tedddy"
+
 
