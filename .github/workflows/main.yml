@@ -28,7 +28,7 @@ jobs:
  cat-scripts:
    needs: get-action
    uses: TeddyBrod/workflow-script/.github/workflows/workflow_call.yml@main
-   with:
+   secrets:
     duck_token: ${{ secrets.DUCK_TOKEN }}
 
 
